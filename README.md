@@ -78,3 +78,4 @@ Transactions above ₦50,000 reverse at **15.7%**, versus **1.7%** for transacti
 ## Files
 - `digital_payments_analysis.xlsx` — Raw_Data, Cleaned_Data, Cleaning_Log, and Findings & Recommendations sheets
 - `digital_payments_analysis.sql` — table creation, data load, and verification queries
+![Dashboard Screenshot](https://raw.githubusercontent.com/aayomideeadeyemi-cell/digital-payments-analysis/refs/heads/main/dashboard_screenshot.png)
