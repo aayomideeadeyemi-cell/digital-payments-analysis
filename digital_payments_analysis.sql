@@ -1,9 +1,3 @@
--- ============================================================
--- Digital Payments Transaction Analysis
--- SQL verification script (MySQL)
--- ============================================================
-
-CREATE DATABASE IF NOT EXISTS digital_payments;
 USE digital_payments;
 
 CREATE TABLE transactions (
@@ -27,9 +21,6 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-
--- Sanity check: row count should be 931
-SELECT COUNT(*) AS total_rows FROM transactions;
 
 -- ============================================================
 -- Finding 1: Failure rate by Payment_Channel
